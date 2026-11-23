@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Starland provides complete industrial electrical and civil works, from supply and installation to maintenance, repair, and project execution.">
+    <meta name="theme-color" content="#DC3F47">
+    <title>Starland | Industrial Electrical & Civil Works</title>
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preload" as="image" href="assets/factory.jpg">
+    <script src="assets/app.js" defer></script>
+</head>
+
+<body class="bg-white font-sans text-ink antialiased">
+    <a href="#main" class="skip-link">Skip to content</a>
+    <svg xmlns="http://www.w3.org/2000/svg" class="hidden" aria-hidden="true">
+        <symbol id="i-bolt" viewBox="0 0 24 24">
+            <path d="m13 2-9 12h7l-1 8 10-13h-7l1-7Z" />
+        </symbol>
+        <symbol id="i-building" viewBox="0 0 24 24">
+            <path d="M3 21V7h10v14M13 11h8v10M1 21h22M6 11h4M6 15h4M6 19h4M16 15h2M16 19h2M6 7V3h4v4" />
+        </symbol>
+        <symbol id="i-tool" viewBox="0 0 24 24">
+            <path d="M14.5 6.5 18 10l3-3a7 7 0 0 1-8 9L6 23l-4-4 7-7a7 7 0 0 1 9-8l-3.5 2.5Z" />
+        </symbol>
+        <symbol id="i-shield" viewBox="0 0 24 24">
+            <path d="m12 2 9 4v6c0 5-9 10-9 10S3 17 3 12V6l9-4Z" />
+            <path d="m8 12 3 3 5-6" />
+        </symbol>
+        <symbol id="i-check" viewBox="0 0 24 24">
+            <path d="m5 12 4 4L19 6" />
+        </symbol>
+        <symbol id="i-clock" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 6v6l4 2" />
+        </symbol>
+        <symbol id="i-layers" viewBox="0 0 24 24">
+            <path d="m12 3 10 5-10 5L2 8l10-5ZM2 12l10 5 10-5M2 16l10 5 10-5" />
+        </symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24">
+            <rect x="3" y="5" width="18" height="14" rx="1" />
+            <path d="m3 6 9 7 9-7" />
+        </symbol>
+        <symbol id="i-pin" viewBox="0 0 24 24">
+            <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z" />
+            <circle cx="12" cy="10" r="2.5" />
+        </symbol>
+    </svg>
+    <div class="border-b border-black/5 bg-paper">
+        <div
+            class="site-container flex min-h-10 items-center justify-between gap-4 py-2 text-xs font-medium tracking-wide text-muted sm:text-sm">
+            <p>Complete solutions. Reliable execution.</p>
+            <p class="hidden items-center gap-2 sm:flex"><svg class="icon h-3.5 w-3.5 text-brand">
+                    <use href="#i-shield" />
+                </svg>Quality. Safety. Commitment.</p>
+        </div>
+    </div>
+    <header class="sticky top-0 z-40 border-b border-black/5 bg-white/95 backdrop-blur-md">
+        <div class="site-container flex h-[88px] items-center justify-between gap-8">
+            <a href="#home" aria-label="Starland home" class="shrink-0"><img src="assets/logo.svg" alt="Starland"
+                    class="w-[210px] sm:w-[240px]" width="741" height="150"></a>
+            <nav class="hidden items-center gap-8 text-sm font-semibold lg:flex" aria-label="Main navigation"><a
+                    class="nav-link is-active" href="#home">Home</a><a class="nav-link" href="#about">About us</a><a
+                    class="nav-link" href="#services">Our services</a><a class="nav-link" href="#why-us">Why
+                    Starland</a></nav>
+            <a class="button button-red hidden md:inline-flex" href="#contact">Get in touch</a>
+            <button id="menu-toggle" class="flex h-11 w-11 items-center justify-center border border-gray-200 lg:hidden"
+                aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu"><svg
+                    class="icon h-6 w-6" viewBox="0 0 24 24">
+                    <path d="M4 7h16M4 12h16M4 17h16" />
+                </svg></button>
+        </div>
+        <nav id="mobile-menu" class="site-container border-t border-gray-100 py-4 lg:hidden"
+            aria-label="Mobile navigation" hidden><a href="#home">Home</a><a href="#about">About us</a><a
+                href="#services">Our services</a><a href="#why-us">Why Starland</a><a href="#contact">Get in touch</a>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="home" class="hero relative isolate overflow-hidden bg-ink text-white"
+            aria-roledescription="carousel" aria-label="Starland capabilities">
+            <div class="hero-image is-current" data-image="0"><img src="assets/factory.jpg"
+                    alt="Steel structures and equipment inside a large industrial facility" width="1920" height="1280"
+                    fetchpriority="high"></div>
+            <div class="hero-image" data-image="1"><img src="assets/construction.jpg"
+                    alt="Construction workers carrying out steel and concrete works" width="1200" height="795"></div>
+            <div class="hero-image" data-image="2"><img src="assets/engineering.jpg"
+                    alt="Industrial steel fabrication work" width="1000" height="667"></div>
+            <div class="hero-shade absolute inset-0 -z-10"></div>
+            <div class="site-container relative pb-32 pt-20 md:pb-36 md:pt-24 lg:pt-28">
+                <div class="mb-6 flex items-center gap-3 text-xs font-bold uppercase tracking-[0.18em] sm:text-sm"><span
+                        class="h-0.5 w-8 bg-brand"></span>Industrial electrical & civil solutions</div>
+                <div class="hero-copy" aria-live="off">
+                    <h1 id="hero-heading"
+                        class="max-w-[800px] text-[clamp(2.7rem,5.4vw,4.75rem)] font-extrabold leading-[1.08] tracking-[-0.045em]">
+                        Powering industry.<br>Building <span class="text-brand">confidence.</span></h1>
+                    <p id="hero-description"
+                        class="mt-7 max-w-[555px] text-base leading-[1.85] text-white/80 md:text-lg">Electrical
+                        expertise. Civil excellence. One trusted partner for installation, maintenance, and complete
+                        project execution.</p>
+                </div>
+                <div class="mt-9 flex flex-wrap gap-4"><a href="#services" class="button button-red">Explore our
+                        services</a><a href="#about" class="button button-outline">Discover Starland</a></div>
+            </div>
+            <div class="absolute inset-x-0 bottom-0">
+                <div class="site-container flex items-center justify-between gap-4 border-t border-white/20 py-6">
+                    <div class="flex items-center gap-3" role="group" aria-label="Choose a slide"><button
+                            class="slide-dot is-active" data-slide="0" aria-label="Show slide 1: Complete solutions"
+                            aria-pressed="true"></button><button class="slide-dot" data-slide="1"
+                            aria-label="Show slide 2: Civil works" aria-pressed="false"></button><button
+                            class="slide-dot" data-slide="2" aria-label="Show slide 3: Maintenance"
+                            aria-pressed="false"></button><span id="slide-count"
+                            class="ml-3 text-xs font-medium tracking-widest text-white/70" aria-hidden="true">01 /
+                            03</span></div>
+                    <div class="flex items-center gap-3"><span
+                            class="mr-4 hidden text-xs font-medium uppercase tracking-[0.16em] text-white/70 md:block"
+                            id="slide-label">Built for your industry</span><button id="slider-pause"
+                            class="slider-control" aria-label="Pause slideshow" aria-pressed="false"><span
+                                id="pause-icon" aria-hidden="true">Ⅱ</span></button><button id="slide-prev"
+                            class="slider-control" aria-label="Previous slide"><svg class="icon h-4 w-4"
+                                viewBox="0 0 24 24">
+                                <path d="m14 6-6 6 6 6" />
+                            </svg></button><button id="slide-next" class="slider-control" aria-label="Next slide"><svg
+                                class="icon h-4 w-4" viewBox="0 0 24 24">
+                                <path d="m10 6 6 6-6 6" />
+                            </svg></button></div>
+                </div>
+            </div>
+        </section>
+        <div class="border-b border-gray-200 bg-paper">
+            <div
+                class="site-container grid grid-cols-1 divide-y divide-gray-200 py-3 sm:grid-cols-3 sm:divide-x sm:divide-y-0 sm:py-7">
+                <div class="capability"><svg class="icon">
+                        <use href="#i-bolt" />
+                    </svg>
+                    <div>
+                        <h2>Electrical expertise</h2>
+                        <p>Powering your operations</p>
+                    </div>
+                </div>
+                <div class="capability"><svg class="icon">
+                        <use href="#i-building" />
+                    </svg>
+                    <div>
+                        <h2>Civil excellence</h2>
+                        <p>Built on strong foundations</p>
+                    </div>
+                </div>
+                <div class="capability"><svg class="icon">
+                        <use href="#i-layers" />
+                    </svg>
+                    <div>
+                        <h2>One complete solution</h2>
+                        <p>From installation to upkeep</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="about" class="section-space">
+            <div class="site-container grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
+                <div class="relative pb-8 pr-6 sm:pr-10">
+                    <div class="absolute bottom-0 left-8 right-0 top-8 bg-paper"></div><img
+                        src="assets/construction.jpg" alt="Civil works in progress on a reinforced concrete structure"
+                        class="relative h-[390px] w-full object-cover sm:h-[470px]" loading="lazy" width="1200"
+                        height="795">
+                    <div
+                        class="absolute bottom-0 right-0 flex max-w-[300px] items-center gap-5 bg-brand px-7 py-6 text-white">
+                        <svg class="icon h-10 w-10 shrink-0">
+                            <use href="#i-layers" />
+                        </svg>
+                        <p class="text-lg font-bold leading-snug">Two disciplines.<br>One reliable partner.</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="eyebrow">Built on trust. Driven by quality.</p>
+                    <h2 class="section-title mt-4">The right expertise.<br>The complete solution.</h2>
+                    <p class="mt-6 leading-[1.85] text-muted">At Starland, we bring electrical and civil expertise
+                        together to keep your projects moving and your facilities performing.</p>
+                    <p class="mt-4 leading-[1.85] text-muted">We specialize in installation, maintenance, repair, and
+                        project execution for industrial facilities, factories, and commercial spaces. From the first
+                        connection to the final finish, we focus on work that stands up to the demands of your business.
+                    </p>
+                    <div class="my-7 grid gap-3 border-y border-gray-200 py-6 sm:grid-cols-2">
+                        <p class="check-item"><svg class="icon">
+                                <use href="#i-check" />
+                            </svg>Integrated project delivery</p>
+                        <p class="check-item"><svg class="icon">
+                                <use href="#i-check" />
+                            </svg>Quality workmanship</p>
+                        <p class="check-item"><svg class="icon">
+                                <use href="#i-check" />
+                            </svg>Safety-focused execution</p>
+                        <p class="check-item"><svg class="icon">
+                                <use href="#i-check" />
+                            </svg>Reliable ongoing support</p>
+                    </div><a href="#contact"
+                        class="text-sm font-bold text-brand underline decoration-brand/35 underline-offset-8 hover:decoration-brand">Let’s
+                        discuss your requirements</a>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="section-space bg-paper">
+            <div class="site-container">
+                <div class="mb-11 flex flex-col justify-between gap-6 md:flex-row md:items-end">
+                    <div>
+                        <p class="eyebrow">What we do</p>
+                        <h2 class="section-title mt-4">Expertise that works.<br>Solutions that last.</h2>
+                    </div>
+                    <p class="max-w-[380px] leading-relaxed text-muted">A complete range of electrical and civil
+                        services, coordinated under one contractor.</p>
+                </div>
+                <div class="grid items-start gap-6 lg:grid-cols-3">
+                    <article class="service-card">
+                        <div class="relative overflow-hidden"><img src="assets/factory.jpg"
+                                alt="Industrial facility with overhead power and lighting systems"
+                                class="h-[230px] w-full object-cover" loading="lazy" width="1920" height="1280"><span
+                                class="service-icon"><svg class="icon">
+                                    <use href="#i-bolt" />
+                                </svg></span></div>
+                        <div class="p-7">
+                            <p class="mb-2 text-xs font-bold uppercase tracking-[0.14em] text-brand">Power &
+                                infrastructure</p>
+                            <h3 class="text-2xl font-bold tracking-tight">Electrical works</h3>
+                            <p class="mt-4 min-h-[84px] text-base leading-7 text-muted">Reliable electrical systems that
+                                keep your facility connected, powered, and productive.</p>
+                            <details class="service-details">
+                                <summary>Explore electrical services<span aria-hidden="true">+</span></summary>
+                                <ul>
+                                    <li>Industrial electrical installations</li>
+                                    <li>Power and lighting systems</li>
+                                    <li>Cable trays and cable management</li>
+                                    <li>Conduits and wiring</li>
+                                    <li>Electrical panels and equipment connections</li>
+                                    <li>Maintenance and troubleshooting</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="service-card">
+                        <div class="relative overflow-hidden"><img src="assets/construction.jpg"
+                                alt="Workers installing steel reinforcement for civil construction"
+                                class="h-[230px] w-full object-cover" loading="lazy" width="1200" height="795"><span
+                                class="service-icon"><svg class="icon">
+                                    <use href="#i-building" />
+                                </svg></span></div>
+                        <div class="p-7">
+                            <p class="mb-2 text-xs font-bold uppercase tracking-[0.14em] text-brand">Structure &
+                                finishing</p>
+                            <h3 class="text-2xl font-bold tracking-tight">Civil works</h3>
+                            <p class="mt-4 min-h-[84px] text-base leading-7 text-muted">From structural works to the
+                                finishing details, we build spaces ready for everyday demands.</p>
+                            <details class="service-details">
+                                <summary>Explore civil services<span aria-hidden="true">+</span></summary>
+                                <ul>
+                                    <li>Concrete, block, and gypsum works</li>
+                                    <li>Painting and finishing</li>
+                                    <li>Steel fabrication and installation</li>
+                                    <li>Flooring and waterproofing</li>
+                                    <li>General building repairs</li>
+                                    <li>Civil maintenance works</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </article>
+                    <article class="service-card">
+                        <div class="relative overflow-hidden"><img src="assets/engineering.jpg"
+                                alt="Specialist performing metal fabrication in a workshop"
+                                class="h-[230px] w-full object-cover" loading="lazy" width="1000" height="667"><span
+                                class="service-icon"><svg class="icon">
+                                    <use href="#i-tool" />
+                                </svg></span></div>
+                        <div class="p-7">
+                            <p class="mb-2 text-xs font-bold uppercase tracking-[0.14em] text-brand">Care & continuity
+                            </p>
+                            <h3 class="text-2xl font-bold tracking-tight">Maintenance & repair</h3>
+                            <p class="mt-4 min-h-[84px] text-base leading-7 text-muted">Practical support to maintain
+                                your assets, resolve issues, and keep your operations moving.</p>
+                            <details class="service-details">
+                                <summary>Explore maintenance services<span aria-hidden="true">+</span></summary>
+                                <ul>
+                                    <li>Electrical system maintenance</li>
+                                    <li>Fault finding and troubleshooting</li>
+                                    <li>Equipment connection repairs</li>
+                                    <li>Building upkeep and repairs</li>
+                                    <li>Flooring and waterproofing repairs</li>
+                                    <li>Painting and refurbishment</li>
+                                </ul>
+                            </details>
+                        </div>
+                    </article>
+                </div>
+                <p class="mt-9 text-center text-sm text-muted">Supply. Installation. Maintenance. <span
+                        class="font-semibold text-ink">Complete project execution.</span></p>
+            </div>
+        </section>
+        <section id="why-us" class="section-space relative overflow-hidden bg-ink text-white">
+            <div class="absolute -right-36 -top-32 h-[500px] w-[500px] rotate-45 border border-white/5"
+                aria-hidden="true"></div>
+            <div class="site-container relative">
+                <div class="mb-14 flex flex-col justify-between gap-6 md:flex-row md:items-end">
+                    <div>
+                        <p class="eyebrow text-[#ff858b]">The Starland commitment</p>
+                        <h2 class="section-title mt-4">More than a contractor.<br>A partner you can rely on.</h2>
+                    </div>
+                    <p class="max-w-[345px] leading-7 text-white/65">The way we work is just as important as the work we
+                        deliver.</p>
+                </div>
+                <div class="grid gap-9 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
+                    <article class="feature"><svg class="icon">
+                            <use href="#i-shield" />
+                        </svg>
+                        <h3>Safety comes first</h3>
+                        <p>A safety-focused approach that respects your people, your site, and your operations.</p>
+                    </article>
+                    <article class="feature"><svg class="icon">
+                            <use href="#i-check" />
+                        </svg>
+                        <h3>Quality in every detail</h3>
+                        <p>Careful workmanship and attention to the details that make a lasting difference.</p>
+                    </article>
+                    <article class="feature"><svg class="icon">
+                            <use href="#i-clock" />
+                        </svg>
+                        <h3>Committed to your timeline</h3>
+                        <p>Coordinated execution with a clear focus on timely project completion.</p>
+                    </article>
+                    <article class="feature"><svg class="icon">
+                            <use href="#i-layers" />
+                        </svg>
+                        <h3>One point of responsibility</h3>
+                        <p>Electrical and civil works together, for simpler coordination from start to finish.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section-space" aria-labelledby="sectors-title">
+            <div class="site-container grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20">
+                <div>
+                    <p class="eyebrow">Where we work</p>
+                    <h2 id="sectors-title" class="section-title mt-4">Built for the places<br>that keep
+                        business<br>moving.</h2>
+                    <p class="mt-6 max-w-md leading-7 text-muted">Whether it’s a new installation, an upgrade, or
+                        ongoing upkeep, our services adapt to your facility’s requirements.</p>
+                </div>
+                <div class="divide-y divide-gray-200 border-y border-gray-200">
+                    <article class="sector"><svg class="icon">
+                            <use href="#i-building" />
+                        </svg>
+                        <div>
+                            <h3>Industrial facilities</h3>
+                            <p>Integrated electrical infrastructure, civil works, and maintenance for demanding
+                                environments.</p>
+                        </div>
+                    </article>
+                    <article class="sector"><svg class="icon">
+                            <use href="#i-bolt" />
+                        </svg>
+                        <div>
+                            <h3>Factories & manufacturing</h3>
+                            <p>Installation and upkeep for the spaces, systems, and connections behind production.</p>
+                        </div>
+                    </article>
+                    <article class="sector"><svg class="icon">
+                            <use href="#i-layers" />
+                        </svg>
+                        <div>
+                            <h3>Commercial projects</h3>
+                            <p>Complete electrical and building solutions for functional, well-maintained commercial
+                                spaces.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="bg-brand text-white">
+            <div class="site-container grid gap-10 py-16 lg:grid-cols-[1.15fr_0.85fr] lg:gap-20 lg:py-20">
+                <div>
+                    <p class="text-sm font-bold uppercase tracking-[0.15em] text-white/80">Let’s build something
+                        dependable</p>
+                    <h2 class="mt-4 text-4xl font-extrabold leading-[1.15] tracking-tight md:text-5xl">Your next
+                        project.<br>Our complete commitment.</h2>
+                    <p class="mt-6 max-w-lg leading-7 text-white/85">Tell us what your facility needs. Let’s find the
+                        right electrical and civil solution together.</p>
+                </div>
+                <div class="flex flex-col justify-center gap-7 border-white/25 lg:border-l lg:pl-12">
+                    <!-- Replace these sample contact details before launch. -->
+                    <div class="flex gap-4"><svg class="icon mt-1 h-6 w-6 shrink-0">
+                            <use href="#i-mail" />
+                        </svg>
+                        <div>
+                            <p class="mb-1 text-sm text-white/80">Email us</p><a href="mailto:info@starland.example"
+                                class="break-all text-xl font-bold underline-offset-4 hover:underline">info@starland.example</a>
+                        </div>
+                    </div>
+                    <div class="flex gap-4"><svg class="icon mt-1 h-6 w-6 shrink-0">
+                            <use href="#i-pin" />
+                        </svg>
+                        <div>
+                            <p class="mb-1 text-sm text-white/80">Our office</p>
+                            <address class="text-base font-semibold not-italic leading-7">123 Industrial Road, Business
+                                District<br>Your City, Country</address>
+                        </div>
+                    </div>
+                    <p class="text-xs text-white/80">Sample contact details · To be updated before launch</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#f7f8f7] pt-16">
+        <div class="site-container grid gap-10 pb-12 sm:grid-cols-2 lg:grid-cols-[1.5fr_0.8fr_1fr_1fr] lg:gap-14">
+            <div><a href="#home" aria-label="Starland home"><img src="assets/logo.svg" alt="Starland" class="w-[245px]"
+                        width="741" height="150" loading="lazy"></a>
+                <p class="mt-5 max-w-xs text-sm leading-7 text-muted">Complete industrial electrical and civil
+                    solutions. Built on quality, safety, and dependable execution.</p>
+            </div>
+            <div>
+                <h2 class="footer-title">Quick links</h2>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Starland</a></li>
+                    <li><a href="#services">Our services</a></li>
+                    <li><a href="#why-us">Why Starland</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="footer-title">Our expertise</h2>
+                <ul class="footer-links">
+                    <li><a href="#services" data-service="0">Electrical works</a></li>
+                    <li><a href="#services" data-service="1">Civil works</a></li>
+                    <li><a href="#services" data-service="2">Maintenance & repair</a></li>
+                    <li><a href="#about">Project execution</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="footer-title">Let’s connect</h2>
+                <p class="text-sm leading-7 text-muted">A reliable partner for your next project.</p><a href="#contact"
+                    class="mt-5 inline-flex border-b border-brand pb-1 text-sm font-bold text-brand">Get in touch</a>
+            </div>
+        </div>
+        <div
+            class="site-container flex flex-col justify-between gap-3 border-t border-gray-200 py-6 text-xs text-muted sm:flex-row">
+            <p>© <span id="year">2026</span> Starland. All rights reserved.</p>
+            <p>Electrical expertise. Civil excellence.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
